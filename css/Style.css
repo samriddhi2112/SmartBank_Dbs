@@ -1,0 +1,114 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+
+button {
+    padding: 8px 15px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register-container {
+    background: white;
+    padding: 40px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+     margin: 80px auto;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-btn:hover {
+    background-color: #1e3c72;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #2a5298;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Dashboard Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1e3c72;
+    color: white;
+}
+
+.logout-btn {
+    background: red;
+    padding: 8px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Account Card */
+.account-card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Action Buttons */
+.actions-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.action-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #2a5298;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.action-btn:hover {
+    background-color: #1e3c72;
+}
