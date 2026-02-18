@@ -17,6 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Hash password
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+    $customer_id = rand(10000000, 99999999);
+
 
     // Insert into database
     $sql = "INSERT INTO users (username, email, password)
